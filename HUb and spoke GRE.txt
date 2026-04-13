@@ -1,0 +1,66 @@
+HUb and spoke GRE:
+
+R3:
+enable
+configure terminal
+! --- Tunnel R4 (Rendelo 1) fele ---
+
+interface Tunnel10
+ip address 10.0.10.1 255.255.255.252
+tunnel source gig0/2/0
+tunnel destination 10.0.1.2
+exit
+
+! --- Tunnel R5 (Rendelo 2) fele ---
+
+interface Tunnel20
+description VPN to Rendelo_2
+ip address 10.0.10.5 255.255.255.252
+tunnel source gig0/2/0
+tunnel destination 10.0.1.6
+exit
+
+! --- OSPF beallitasa az alagutakra ---
+
+router ospf 1
+network 10.0.10.0 0.0.0.3 area 0
+network 10.0.10.4 0.0.0.3 area 0
+exit
+
+R4:
+enable
+configure terminal
+! --- Regi tunnel torlese ---
+no interface Tunnel1
+
+! --- Uj Tunnel a Korhaz (R3) fele ---
+interface Tunnel10
+ ip address 10.0.10.2 255.255.255.252
+ tunnel source gig0/2/0
+ tunnel destination 10.0.1.10
+ exit
+
+! --- OSPF elinditasa ---
+router ospf 1
+ network 10.0.10.0 0.0.0.3 area 0
+ network 172.16.10.0 0.0.0.255 area 0
+ exit
+
+R5:
+enable
+configure terminal
+! --- Regi tunnel torlese ---
+no interface Tunnel1
+
+! --- Uj Tunnel a Korhaz (R3) fele ---
+interface Tunnel20
+ ip address 10.0.10.6 255.255.255.252
+ tunnel source gig0/1/0
+ tunnel destination 10.0.1.10
+ exit
+
+! --- OSPF elinditasa ---
+router ospf 1
+ network 10.0.10.4 0.0.0.3 area 0
+ network 172.16.20.0 0.0.0.255 area 0
+ exit
