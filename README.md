@@ -5,7 +5,7 @@ Ez a repozitórium a szakmai vizsgám hálózati topológiáját, konfiguráció
 ## 📁 Vizsgafájlok (Cisco Packet Tracer)
 A hálózat tervezése és szimulációja Cisco Packet Tracer segítségével készült. A repóban megtalálhatóak a fejlesztés fázisai, a végső verzió a legfrissebb fájlban található.
 
-* [**`szakmai vizsga1.8.pkt`**](szakmai%20vizsga2.1.pkt) - **A VÉGSŐ, TELJES VERZIÓ**
+* [**`szakmai vizsga2.1.pkt`**](szakmai%20vizsga2.1.pkt) - **A VÉGSŐ, TELJES VERZIÓ**
 * [`szakmai vizsga1.6 demo.pkt`](szakmai%20vizsga1.6%20demo.pkt) - Demo verzió
 * [`szakmai vizsga1.7.pkt`](szakmai%20vizsga1.7.pkt) - Utolsó előtti verzió
 * [`szakmai vizsga (1).pkt`](szakmai%20vizsga%20(1).pkt) - Legelső alap verzió
