@@ -6,9 +6,9 @@ Ebben a repozitóriumban a szakmai vizsgámhoz tartozó hálózati tervezési do
 
 Ha azonnal a legfontosabb fájlokra vagy kíváncsi, itt egy kattintással elérheted őket:
 
-* 🚀 **[Legújabb vizsga verzió (v2.1)](./PKT/szakmai%20vizsga2.1.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
+* 🚀 **[Legújabb vizsga verzió (v2.1)](./PKT/szakmai%20vizsga2.4.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
 * 🏗️ **[Első verzió (Alap topológia)](./PKT/szakmai%20vizsga1.0.pkt)** - *A hálózat kiinduló, alapértelmezett állapota.*
-* 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/Terv.docx)** - *A projekt részletes logikai és hálózatépítési terve.*
+* 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/vizsga_dokumentacio%20(1).docx)** - *A projekt részletes logikai és hálózatépítési terve.*
 * 🛡️ **[Tűzfal konfiguráció](./Konfigok/ASA%20config.txt)** - *A Cisco ASA biztonsági beállításai.*
 
 ## 🗂️ A repozitórium felépítése
