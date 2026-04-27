@@ -2,7 +2,16 @@
 
 Ebben a repozitóriumban a szakmai vizsgámhoz tartozó hálózati tervezési dokumentációk, eszközkonfigurációk és szimulációs fájlok találhatóak. A projekt egy komplex (kórházi és EESZT) hálózati infrastruktúra felépítését, biztonságossá tételét és redundáns működését mutatja be.
 
-## 🗂️ A repozitórium felépítése (Kattintható linkek)
+## ⚡ Gyors elérések
+
+Ha azonnal a legfontosabb fájlokra vagy kíváncsi, itt egy kattintással elérheted őket:
+
+* 🚀 **[Legújabb vizsga verzió (v2.1)](./PKT/szakmai%20vizsga2.1.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
+* 🏗️ **[Első verzió (Alap topológia)](./PKT/szakmai%20vizsga1.0.pkt)** - *A hálózat kiinduló, alapértelmezett állapota.*
+* 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/Terv.docx)** - *A projekt részletes logikai és hálózatépítési terve.*
+* 🛡️ **[Tűzfal konfiguráció](./Konfigok/ASA%20config.txt)** - *A Cisco ASA biztonsági beállításai.*
+
+## 🗂️ A repozitórium felépítése
 
 Az átláthatóság érdekében az anyagokat az alábbi mappastruktúra szerint rendszereztem. Kattints a mappa nevére a fájlok megtekintéséhez:
 
