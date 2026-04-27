@@ -1,0 +1,166 @@
+R5
+
+! DHCP
+en
+conf t
+ip dhcp pool WIFI
+network 172.16.20.0 255.255.255.0
+default-router 172.16.20.1
+dns-server 8.8.8.8
+ip dhcp excluded-address 172.16.20.1 172.16.20.15
+exit
+
+SW9
+vlan 10
+name Orvos
+exit
+vlan 20
+name Aszisztens
+exit
+vlan 50
+name management
+exit
+vlan 99
+name blackhole
+exit
+int f0/1
+sw a vlan 10
+int f0/5
+sw m t 
+int g0/2 
+sw m a
+
+
+SW8
+vlan 10
+name Orvos
+exit
+vlan 20
+name Aszisztens
+exit
+vlan 50
+name management
+exit
+vlan 99
+name blackhole
+exit
+int f0/1
+sw m a
+sw a vlan 10
+int g0/1
+sw m t 
+int f0/5
+sw m t 
+int f0/10
+sw m t
+int g0/2 
+sw m a
+
+
+SW7
+vlan 10
+name Orvos
+exit
+vlan 20
+name Aszisztens
+exit
+vlan 50
+name management
+exit
+vlan 99
+name blackhole
+exit
+int f0/1
+sw m a
+sw a vlan 10
+int f0/10
+sw m t
+int g0/2 
+sw m a 
+
+
+
+
+
+
+
+
+
+
+
+
+SW12
+
+en
+conf t
+
+vlan 10
+
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10   
+
+interface g0/2
+ switchport mode access
+ switchport access vlan 10   
+
+interface fa0/2
+ switchport mode access
+ switchport access vlan 10   
+
+end
+
+
+
+SW11
+
+en
+conf t
+
+vlan 10
+
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+
+interface g0/2
+ switchport mode access
+ switchport access vlan 10
+
+interface fa0/5
+ switchport mode access
+ switchport access vlan 10
+
+interface g0/1
+ switchport mode access
+ switchport access vlan 10
+
+end
+
+
+SW10
+
+en
+conf t
+
+vlan 10
+
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+
+interface g0/2
+ switchport mode access
+ switchport access vlan 10
+
+interface g0/1
+ switchport mode access
+ switchport access vlan 10
+
+interface fa0/5
+ switchport mode access
+ switchport access vlan 10
+
+end
+
+
