@@ -6,13 +6,11 @@ Ebben a repozitóriumban a szakmai vizsgámhoz tartozó hálózati tervezési do
 
 Az átláthatóság érdekében az anyagokat az alábbi mappastruktúra szerint rendszereztem. Kattints a mappa nevére a fájlok megtekintéséhez:
 
-* 📁 **[Dokumentációk](./Dokumentaciok)** *A vizsgamunkához tartozó hálózatépítési és logikai tervek (pl. [Terv.docx](./Dokumentaciok/Terv.docx)).*
+* 📁 **[Konfigurációk](./Konfigurálás)** *A hálózati eszközök kimentett konfigurációs szövegfájljai.*
 
-* 📁 **[Konfigurációk](./Konfiguraciok)** *A hálózati eszközök (Routerek, Switchek, WLC, ASA tűzfal) kimentett konfigurációs szövegfájljai.*
+* 📁 **[Tesztelés és igazolás](./Tesztelés)** *Képernyőképek a hálózat működéséről, ping tesztekről.*
 
-* 📁 **[Packet Tracer fájlok](./Packet_Tracer)** *A megvalósított hálózati topológiák és szimulációk (.pkt formátumban).*
-
-* 📁 **[Tesztelés és igazolás](./Teszteles)** *Képernyőképek a hálózat működéséről, ping tesztekről és VPN alagutak állapotáról.*
+* 📁 **[Vizsga fájlok](./Vizsga)** *A megvalósított hálózati topológiák és szimulációk (.pkt formátumban) és dokumentációk.*
 
 ## 🛠️ Alkalmazott technológiák és protokollok
 
