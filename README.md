@@ -6,7 +6,7 @@ Ebben a repozitóriumban a szakmai vizsgánkhoz tartozó hálózati tervezési d
 
 Ha azonnal a legfontosabb fájlokra vagy kíváncsi, itt egy kattintással elérheted őket:
 
-* 🚀 **[Legújabb vizsga verzió (v2.4)](./PKT/szakmai%20vizsga2.4.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
+* 🚀 **[Legújabb vizsga verzió (v2.4)](./PKT/szakmai%20vizsga2.5.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
 * 🏗️ **[Első verzió (Alap topológia)](./PKT/szakmai%20vizsga1.0.pkt)** - *A hálózat kiinduló, alapértelmezett állapota.*
 * 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/vizsga_dokumentacio%20(1).docx)** - *A projekt részletes logikai és hálózatépítési terve.*
 * 📋 **[Tesztelési Dokumentáció](./Dokumentacio/Tesztelesi_Dokumentacio.docx)** - *A hálózat működésének, a ping teszteknek és a biztonsági beállításoknak az ellenőrzése.*
