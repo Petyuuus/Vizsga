@@ -1,19 +1,19 @@
 # Hálózatépítő Szakmai Vizsga - Projekt Repozitórium
 
-Ebben a repozitóriumban a szakmai vizsgámhoz tartozó hálózati tervezési dokumentációk, eszközkonfigurációk és szimulációs fájlok találhatóak. A projekt egy komplex (kórházi és EESZT) hálózati infrastruktúra felépítését, biztonságossá tételét és redundáns működését mutatja be.
+Ebben a repozitóriumban a szakmai vizsgánkhoz tartozó hálózati tervezési dokumentációk, eszközkonfigurációk és szimulációs fájlok találhatóak. A projekt egy komplex (kórházi,rendelői és EESZT) hálózati infrastruktúra felépítését, biztonságossá tételét és redundáns működését mutatja be.
 
 ## ⚡ Gyors elérések
 
 Ha azonnal a legfontosabb fájlokra vagy kíváncsi, itt egy kattintással elérheted őket:
 
-* 🚀 **[Legújabb vizsga verzió (v2.1)](./PKT/szakmai%20vizsga2.4.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
+* 🚀 **[Legújabb vizsga verzió (v2.4)](./PKT/szakmai%20vizsga2.4.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
 * 🏗️ **[Első verzió (Alap topológia)](./PKT/szakmai%20vizsga1.0.pkt)** - *A hálózat kiinduló, alapértelmezett állapota.*
 * 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/vizsga_dokumentacio%20(1).docx)** - *A projekt részletes logikai és hálózatépítési terve.*
 * 📋 **[Tesztelési Dokumentáció](./Dokumentacio/Tesztelesi_Dokumentacio.docx)** - *A hálózat működésének, a ping teszteknek és a biztonsági beállításoknak az ellenőrzése.*
 
 ## 🗂️ A repozitórium felépítése
 
-Az átláthatóság érdekében az anyagokat az alábbi mappastruktúra szerint rendszereztem. Kattints a mappa nevére a fájlok megtekintéséhez:
+Az átláthatóság érdekében az anyagokat az alábbi mappastruktúra szerint rendszereztük. Kattints a mappa nevére a fájlok megtekintéséhez:
 
 * 📁 **[Dokumentációk](./Dokumentacio)** *A vizsgamunkához tartozó hálózatépítési és logikai tervek.*
 
