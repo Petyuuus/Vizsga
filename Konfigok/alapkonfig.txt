@@ -1,5 +1,6 @@
 alapkonfig:
 
+Korhaz:
 
 enable
 configure terminal
@@ -7,31 +8,90 @@ no ip domain-lookup
 service password-encryption
 enable secret xm120ZPE34
 clock timezone CET 1
-clock summer-time CEST recurring
 ip domain-name korhaz.lan
 crypto key generate rsa
+1024
 username admin privilege 15 secret xm120ZPE34
-
 ip access-list standard SSH-VEDELEM
- permit 192.168.60.0 0.0.0.255
+ permit 172.16.10.0 0.0.0.255
  permit host 10.0.2.2
  deny any
  exit
-
-
 line con 0
  password cisco
  login
  logging synchronous
  exec-timeout 5 0
  exit
-
-
 line vty 0 4
  login local
  transport input ssh
  access-class SSH-VEDELEM in
  exec-timeout 5 0
  exit
-
 do wr
+
+
+Rendelo1:
+
+enable
+configure terminal
+no ip domain-lookup
+service password-encryption
+enable secret xm120ZPE34
+clock timezone CET 1
+ip domain-name korhaz.lan
+crypto key generate rsa
+1024
+username admin privilege 15 secret xm120ZPE34
+line con 0
+ password cisco
+ login
+ logging synchronous
+ exec-timeout 5 0
+ exit
+ip access-list standard SSH-VEDELEM
+ permit host 10.0.2.2
+ permit host 172.16.10.10
+ deny any
+ exit
+line vty 0 4
+login local
+transport input ssh
+access-class SSH-VEDELEM in
+exec-timeout 5 0
+ exit
+do wr
+
+
+Rendelo2:
+
+enable
+configure terminal
+no ip domain-lookup
+service password-encryption
+enable secret xm120ZPE34
+clock timezone CET 1
+ip domain-name korhaz.lan
+crypto key generate rsa
+1024
+username admin privilege 15 secret xm120ZPE34
+line con 0
+ password cisco
+ login
+ logging synchronous
+ exec-timeout 5 0
+ exit
+ip access-list standard SSH-VEDELEM
+ permit host 10.0.2.2
+ permit host 172.16.20.10
+ deny any
+ exit
+line vty 0 4
+login local
+transport input ssh
+access-class SSH-VEDELEM in
+exec-timeout 5 0
+ exit
+do wr
+
