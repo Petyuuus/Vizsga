@@ -32,6 +32,6 @@ A hálózati topológia kialakítása során az alábbi főbb vizsgakövetelmén
 
 ## 🚀 Használat és tesztelés
 
-1. A hálózati szimulációk futtatásához töltsd le a fájlokat a **[Packet_Tracer](./Packet_Tracer)** mappából.
+1. A hálózati szimulációk futtatásához töltsd le azt a fájlt amire szükséged van a **[Packet_Tracer](./PKT)** mappából.
 2. A megnyitáshoz legalább **Cisco Packet Tracer 8.x** verzió szükséges.
-3. Az eszközök részletes beállításai a **[Konfiguraciok](./Konfiguraciok)** mappában lévő szöveges fájlokban olvashatóak vissza.
+3. Az eszközök részletes beállításai a **[Konfiguraciok](./Konfigok)** mappában lévő szöveges fájlokban olvashatóak vissza.
