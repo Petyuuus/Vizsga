@@ -8,7 +8,7 @@ Ha azonnal a legfontosabb fájlokra vagy kíváncsi, itt egy kattintással elér
 
 * 🚀 **[Legújabb vizsga verzió (v2.5)](./PKT/szakmai%20vizsga2.5.pkt)** - *A végleges, legfrissebb Packet Tracer projekt.*
 * 🏗️ **[Első verzió (Alap topológia)](./PKT/szakmai%20vizsga1.0.pkt)** - *A hálózat kiinduló, alapértelmezett állapota.*
-* 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/vizsga_dokumentacio.pdf)** - *A projekt részletes logikai és hálózatépítési terve.*
+* 📄 **[Hivatalos Vizsga Dokumentáció](./Dokumentacio/vizsga_dokumentáció.pdf)** - *A projekt részletes logikai és hálózatépítési terve.*
 * 📋 **[Tesztelési Dokumentáció](./Dokumentacio/tesztelesi_dokumentacio.pdf)** - *A hálózat működésének, a ping teszteknek és a biztonsági beállításoknak az ellenőrzése.*
 
 ## 🗂️ A repozitórium felépítése
